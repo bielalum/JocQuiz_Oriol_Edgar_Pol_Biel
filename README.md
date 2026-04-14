@@ -1,5 +1,4 @@
-# JocQuiz_Oriol_Edgar_Pol_Biel
-# 🎮 JocQuiz - Joc Trivial Web
+# 🎮 Rèptor - Joc Trivial Web
 
 ## 📌 Descripció
 Aquest projecte consisteix en el desenvolupament d’un joc web tipus **trivial**, creat amb **HTML, CSS i JavaScript** i gestionat amb **GitHub**.
