@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Resultats</title>
-    <link rel="stylesheet" href="../css/results.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class ="results page">
 
@@ -20,6 +20,8 @@
     <div class="divider"></div>
 
     <section class="results-layout">
+        <article class="results-left">
+
          <h2 id="playerTitle">JUGADOR/A</h2>
 
                 <div class="score-box" id="scoreBox">0/0</div>
@@ -48,7 +50,16 @@
                 <div class="results-actions">
                     <button class="play-again-btn" type="button" id="playAgainButton">TORNAR A JUGAR</button>
                 </div>
-    </section>
 
+    </article>
+
+    <aside class="results-right">
+                <h2>RÀNQUING LOCAL</h2>
+                <div class="ranking-box" id="rankingList"></div>
+            </aside>
+
+    </section>
+    </main>
+    <script src="../js/results.js"></script>
 </body>
 </html>
