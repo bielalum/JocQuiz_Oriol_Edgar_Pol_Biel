@@ -7,13 +7,8 @@ function empezarJuego() {
     }
 
     localStorage.setItem("username", nombre);
+    window.location.href = "../pages/game.html";
 
-    document.getElementById("pantalla-inicio").style.display = "none";
-    document.getElementById("menu").style.display = "block";
 
-    document.getElementById("saludo").innerText = "Hola " + nombre;
 }
 
-function seleccionarTipo(tipo) {
-    alert("Mode seleccionat: " + tipo);
-}

@@ -50,6 +50,7 @@ body {
 .question-bg span {
     position: absolute;
     color: #f1d54f;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 4rem;
     font-weight: bold;
     opacity: 0.95;
@@ -123,13 +124,15 @@ body {
 
 .form-box button {
     border: none;
-    background: #efefef;
+    background: #ffffff;
     color: #000;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 2.3rem;
-    padding: 18px 55px;
+    padding: 10px 60px;
     border-radius: 999px;
     cursor: pointer;
     transition: transform 0.2s ease;
+    text-transform: uppercase;
 }
 
 .form-box button:hover {

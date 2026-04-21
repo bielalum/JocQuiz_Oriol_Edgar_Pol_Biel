@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Quiz</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
 
-    <div id="pantalla-inicio">
-        <h1>Rèptor</h1>
-        <input type="text" id="nombre" placeholder="Introduce tu nombre">
-        <br><br>
-        <button onclick="empezarJuego()">JUGAR</button>
+    <div id="pantalla-inicio" class="home-page home-container">
+        
+        <div class="question-bg">
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+        </div>
+
+        <div class="home-content">
+            <h1 class="title-main">RÈPTOR</h1>
+            <h2 class="subtitle-main">JOC DE PREGUNTES</h2>
+
+            <div class="form-box">
+                <input type="text" id="nombre" placeholder="Introduce tu nombre" autocomplete="off">
+                <button onclick="empezarJuego()">JUGAR</button>
+            </div>
+        </div>
     </div>
 
     <div id="menu" style="display:none;">
@@ -21,30 +34,30 @@
         <button onclick="seleccionarTipo('B')">Cultura General</button>
     </div>
 
-    //PANTALLA DE JUEGO
+    <!--PANTALLA JOC--> 
     <div id="pantalla-juego" style="display:none;">
     <h2 id="pregunta">Pregunta</h2>
 
-    <button onclick="responder('A')">Respuesta A</button>
-    <button onclick="responder('B')">Respuesta B</button>
-    <button onclick="responder('C')">Respuesta C</button>
-    <button onclick="responder('D')">Respuesta D</button>
+    <button onclick="responder('A')">Resposta A</button>
+    <button onclick="responder('B')">Resposta B</button>
+    <button onclick="responder('C')">Resposta C</button>
+    <button onclick="responder('D')">Resposta D</button>
 
     <p id="contador">Pregunta 1</p>
     </div>
 
+    <!--PANTALLA RESULTATS--> 
 
-    //PANTALLA DE RESULTADOS
     <div id="pantalla-resultados" style="display:none;">
-    <h2>RESULTADOS</h2>
+    <h2>RESULTATS</h2>
     <p id="resultado-final"></p>
 
-    <button onclick="reiniciar()">Volver a jugar</button>
+    <button onclick="reiniciar()">Tronar a jugar</button>
     </div>
 
 
 
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
 
 </body>
 </html>

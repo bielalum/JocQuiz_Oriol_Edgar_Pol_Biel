@@ -2,6 +2,13 @@ const modeTitle = document.getElementById("modeTitle");
 const countdownElement = document.getElementById("countdown");
 const answerButtons = document.querySelectorAll(".answer-btn");
 
+const playerDisplay = document.getElementById("player-display"); 
+
+const nombreGuardado = localStorage.getItem("username") || "Jugador";
+if (playerDisplay) {
+    playerDisplay.textContent = "HOLA: " + nombreGuardado + "!";
+}
+
 const selectedMode = localStorage.getItem("gameMode") || "[MODE DE JOC]";
 modeTitle.textContent = selectedMode.toUpperCase();
 
