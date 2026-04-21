@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona Mode - Rèptor</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="standard-page">
+
+    <main class="panel-page">
+        <header class="page-header">
+            <div class="corner-icons">¿ ?</div>
+            <div class="header-center">
+                <h1 class="page-title">RÈPTOR</h1>
+                <p id="saludo-usuario" class="welcome-text">HOLA, JUGADOR</p>
+            </div>
+            <div class="corner-icons">? ?</div>
+        </header>
+
+        <div class="divider"></div>
+
+        <h2 style="text-align: center; font-family: 'Luckiest Guy'; font-size: 2.5rem; margin-bottom: 30px; color: white;">
+            MODES DE JOC
+        </h2>
+
+        <section class="modes-grid">
+            
+            <div class="mode-card" onclick="seleccionarModo('geografia')">
+                <div class="mode-image-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Geografía">
+                </div>
+                <h3>GEOGRAFIA</h3>
+            </div>
+
+            <div class="mode-card" onclick="seleccionarModo('cultura general')">
+                <div class="mode-image-box">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3281/3281329.png" alt="Cultura General">
+                </div>
+                <h3>CULTURA GENERAL</h3>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="../js/modes.js"></script>
+</body>
+</html>
