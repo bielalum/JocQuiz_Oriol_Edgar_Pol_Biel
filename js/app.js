@@ -1,6 +1,13 @@
 function empezarJuego() {
     const nombre = document.getElementById("nombre").value;
 
+    if (nombre.trim() === "") {
+        alert("Introdueix un nom");
+        return;
+    }
+
+    localStorage.setItem("username", nombre);
+
     document.getElementById("pantalla-inicio").style.display = "none";
     document.getElementById("menu").style.display = "block";
 
@@ -8,5 +15,5 @@ function empezarJuego() {
 }
 
 function seleccionarTipo(tipo) {
-    alert("Has seleccionado " + tipo);
+    alert("Mode seleccionat: " + tipo);
 }
