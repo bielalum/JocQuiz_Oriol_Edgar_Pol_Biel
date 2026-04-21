@@ -474,4 +474,109 @@ body {
     .panel-page {
         padding: 20px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+.results-page {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #5f1ee6 0%, #6d22f5 100%);
+}
+
+.exit-icon {
+    border: none;
+    background: transparent;
+}
+
+.exit-icon:hover {
+    transform: scale(1.08);
+}
+
+.results-summary-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 3px solid #f1d54f;
+    border-radius: 24px;
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0 0 30px;
+}
+
+.results-summary-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.results-label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.results-value {
+    color: #f1d54f;
+    text-align: right;
+}
+
+.results-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.results-right {
+    height: 100%;
+}
+
+.ranking-empty {
+    text-align: center;
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+.ranking-item span:last-child {
+    white-space: nowrap;
+}
+
+@media (max-width: 980px) {
+    .results-summary-line {
+        font-size: 0.98rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .score-box {
+        width: 130px;
+        height: 95px;
+        margin-left: 0;
+    }
+
+    .position-text {
+        font-size: 1.45rem;
+    }
+
+    .results-summary-card {
+        padding: 18px;
+    }
+
+    .results-summary-line {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ranking-item {
+        font-size: 1rem;
+        padding: 16px 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+}
+>>>>>>> feature/loading-i-resultats
