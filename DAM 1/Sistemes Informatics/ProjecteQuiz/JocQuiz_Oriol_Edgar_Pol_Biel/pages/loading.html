@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregant pregunta</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="loading-page">
+
+    <main class="loading-container">
+        <div class="question-bg loading-bg">
+            <span>?</span><span>¿</span><span>?</span><span>¿</span><span>?</span>
+            <span>¿</span><span>?</span><span>¿</span><span>?</span><span>¿</span>
+            <span>?</span><span>¿</span><span>?</span><span>¿</span><span>?</span>
+            <span>¿</span><span>?</span><span>¿</span><span>?</span><span>¿</span>
+        </div>
+
+        <div class="loading-content">
+            <h2>BUSCANT UNA PREGUNTA...</h2>
+            <div class="loader"></div>
+        </div>
+    </main>
+
+    <script>
+        setTimeout(() => {
+            const total = Number(localStorage.getItem("totalQuestions")) || 15;
+            const current = Number(localStorage.getItem("currentQuestion")) || 0;
+
+            if (current >= total) {
+                window.location.href = "results.html";
+            } else {
+                window.location.href = "game.html";
+            }
+        }, 900);
+    </script>
+</body>
+</html>
