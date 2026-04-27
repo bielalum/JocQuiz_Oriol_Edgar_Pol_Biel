@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="standard-page">
+
+    <main class="panel-page">
+        <header class="page-header">
+            <div class="corner-icons left">¿ ?</div>
+            <div class="header-center">
+                <h1 class="page-title" id="modeTitle">[MODE DE JOC]</h1>
+                <p class="question-label">PREGUNTA ALEATÒRIA</p>
+                <p id="player-display" style="font-weight: bold; color: #f1d54f; margin-top: 5px;"></p>            </div>
+            <div class="corner-icons right">? ?</div>
+        </header>
+
+        <div class="divider"></div>
+
+        <section class="timer-row">
+            <div class="timer-box">
+                Temps: <span id="countdown">15</span>s
+            </div>
+        </section>
+
+        <section class="game-layout">
+            <div class="answers-column">
+                <button class="answer-btn" data-correct="true">a) Resposta 1</button>
+                <button class="answer-btn">b) Resposta 2</button>
+                <button class="answer-btn">c) Resposta 3</button>
+                <button class="answer-btn">d) Resposta 4</button>
+            </div>
+
+            <div class="image-column">
+                <div class="question-image-box">
+                    <img src="https://via.placeholder.com/320x320?text=IMATGE" alt="Imatge pregunta">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/game.js"></script>
+</body>
+</html>
