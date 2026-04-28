@@ -103,12 +103,6 @@ Disseny previ de les pantalles:
 - 🎮 Joc  
 - 📊 Resultats  
 
-🔗 Canva: LINK
+🔗 Canva: https://canva.link/hgwom4vugv7si04
 
 ---
-
-## ▶️ Com executar el projecte
-
-1. Clonar el repositori:
-```bash
-git clone LINK
