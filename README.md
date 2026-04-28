@@ -27,7 +27,7 @@ L’usuari respon preguntes amb diverses opcions i, al final de la partida, pot 
 - 📊 Pantalla de resultats
 - 📈 Estadístiques globals
 - 🔄 Opció de tornar a jugar
-- ⏱️ Temporitzador per pregunta (opcional)
+- ⏱️ Temporitzador per pregunta
 
 ---
 ## 🏗️ Estructura del projecte
@@ -43,8 +43,8 @@ L’usuari respon preguntes amb diverses opcions i, al final de la partida, pot 
 
 ## 🛠️ Tecnologies utilitzades
 
-- HTML5  
-- CSS3  
+- HTML
+- CSS 
 - JavaScript  
 - Git & GitHub  
 
