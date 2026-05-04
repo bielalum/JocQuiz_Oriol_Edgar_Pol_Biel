@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rèptor - Inici</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="home-page">
+
+    <main id="pantalla-inicio" class="home-container">
+        <div class="question-bg">
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+            <span>?</span><span>?</span><span>?</span><span>?</span><span>?</span>
+        </div>
+
+        <section class="home-content">
+            <h1 class="title-main">RÈPTOR</h1>
+            <h2 class="subtitle-main">JOC DE PREGUNTES</h2>
+
+            <div class="form-box">
+                <input type="text" id="nombre" placeholder="Introdueix el teu nom" autocomplete="off">
+                <button type="button" onclick="empezarJuego()">JUGAR</button>
+            </div>
+        </section>
+    </main>
+
+    <main id="menu" class="standard-page" style="display:none;">
+        <section class="panel-page">
+            <header class="page-header">
+                <div class="corner-icons left">¿ ?</div>
+                <div class="header-center">
+                    <h1 class="page-title">MODES DE JOC</h1>
+                    <p class="welcome-text" id="saludo">Benvingut/da</p>
+                </div>
+                <div class="corner-icons right">? ?</div>
+            </header>
+
+            <div class="divider"></div>
+
+            <section class="modes-grid">
+                <article class="mode-card" onclick="seleccionarTipo('cultura')">
+                    <div class="mode-image-box mode-emoji">🧠</div>
+                    <h3>CULTURA</h3>
+                </article>
+
+                <article class="mode-card" onclick="seleccionarTipo('banderas')">
+                    <div class="mode-image-box mode-emoji">🏳️</div>
+                    <h3>BANDERES</h3>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script src="../js/app.js"></script>
+</body>
+</html>
