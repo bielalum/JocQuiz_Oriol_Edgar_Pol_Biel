@@ -1,9 +1,9 @@
 # 🎮 Rèptor - Joc Trivial Web
 
 ## 📌 Descripció
-Aquest projecte consisteix en el desenvolupament d’un joc web tipus **trivial**, creat amb **HTML, CSS i JavaScript** i gestionat amb **GitHub**.
+Aquest projecte consisteix en el desenvolupament d’un joc web tipus **quiz**, creat amb **HTML, CSS i JavaScript** i gestionat amb **GitHub**.
 
-L’usuari respon preguntes amb diverses opcions i, al final de la partida, pot veure els seus resultats i estadístiques. També pot tornar a jugar perquè, evidentment, una derrota mai és suficient.
+L’usuari respon preguntes amb diverses opcions i, al final de la partida, pot veure els seus resultats i estadístiques, podent tornar a jugar si així ho desitja.
 
 ---
 
@@ -76,23 +76,17 @@ L’usuari respon preguntes amb diverses opcions i, al final de la partida, pot 
 
 ## 🔄 Metodologia
 
-S’ha utilitzat **GitHub Projects (Kanban)**:
+S’ha utilitzat **Trello**:
 
-- To Do  
-- In Progress  
-- Done  
+- Llista de tasques (totes)  
+- Tasques per fer avui
+- Tasques en procés
+- Tasques fetes  
 
-Treball amb branques per evitar trencar-ho tot cada 10 minuts.
-
----
-
-## 🚧 Estat del projecte
-
-- 🔧 Desenvolupament: Iniciat  
-- ⚙️ Dificultat: Mitjana  
-- 🐛 Problemes tècnics: Sí  
+Treball amb branques.
 
 ---
+
 
 ## 🎨 Mockup
 
