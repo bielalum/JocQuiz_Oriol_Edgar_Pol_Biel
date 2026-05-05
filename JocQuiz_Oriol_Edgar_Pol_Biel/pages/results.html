@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultats</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="results-page">
+
+    <main class="panel-page">
+        <header class="page-header results-header">
+            <div class="corner-icons left">¿ ?</div>
+            <div class="header-center">
+                <h1 class="page-title">RESULTATS</h1>
+                <p class="welcome-text" id="resultsSubtitle">Partida completada</p>
+            </div>
+            <button class="exit-icon" type="button" id="homeButton" aria-label="Tornar a l'inici">⌂</button>
+        </header>
+
+        <div class="divider"></div>
+
+        <section class="results-layout">
+            <article class="results-left">
+                <h2 id="playerTitle">JUGADOR/A</h2>
+
+                <div class="score-box" id="scoreBox">0/0</div>
+
+                <div class="results-summary-card">
+                    <p class="results-summary-line">
+                        <span class="results-label">Mode</span>
+                        <span class="results-value" id="modeValue">-</span>
+                    </p>
+                    <p class="results-summary-line">
+                        <span class="results-label">Encerts</span>
+                        <span class="results-value" id="correctValue">0</span>
+                    </p>
+                    <p class="results-summary-line">
+                        <span class="results-label">Percentatge</span>
+                        <span class="results-value" id="percentageValue">0%</span>
+                    </p>
+                </div>
+
+                <div class="position-text">
+                    <p>El teu resultat:</p>
+                    <p class="highlight-position" id="resultMessage">Continua entrenant.</p>
+                    <p id="resultDescription">Cada partida suma. La següent pot sortir millor.</p>
+                </div>
+
+                <div class="results-actions">
+                    <button class="play-again-btn" type="button" id="playAgainButton">TORNAR A JUGAR</button>
+                </div>
+            </article>
+
+            <aside class="results-right">
+                <h2>RÀNQUING LOCAL</h2>
+                <div class="ranking-box" id="rankingList"></div>
+            </aside>
+        </section>
+    </main>
+
+    <script src="../js/results.js"></script>
+</body>
+</html>
